@@ -39,7 +39,10 @@ The beat signal was implemented, and the next part verifies that the 1D FFT resu
 
 ### Range FFT (1st FFT)
 The range FFT was implemented on the beat or mixed signal. For an initial range of 120 meters, the result of the 1D range FFT is plotted below:
+
 ![](./images/1D-range-FFT.png)
 
 ### 2D CFAR
 2D CFAR is implemented on the output of the 2D FFT (Range-Doppler map). Notice that the noise is supressed and target signal remains:
+
+![](./images/2D-CFAR-results.png "results")
